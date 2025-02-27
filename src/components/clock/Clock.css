@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "ClockFont";
+    src: url(../../fonts/RobotoMono-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clock {
+    font-family: 'ClockFont', sans-serif;
+    font-size: 150px;
+}

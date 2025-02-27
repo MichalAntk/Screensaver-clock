@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import './Clock.css';
 
 const Clock = () => {
     const [time, setTime] = useState(new Date());
@@ -12,7 +13,7 @@ const Clock = () => {
     }, []);
 
     return (
-        <div style = {{ fontSize: "48px", fontFamily: "monospace" }}>
+        <div className = "clock">
             {time.toLocaleTimeString()}
         </div>
     );

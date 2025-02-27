@@ -1,11 +1,12 @@
-import Clock from "./Clock";
-import Stopwatch from "./Stopwatch";
+import React from "react";
+import './App.css';
+import Clock from "./components/clock/Clock";
+import Stopwatch from "./components/stopwatch/Stopwatch";
 
 function App() {
   return (
-    <div>
+    <div className="center">
       <Clock />
-      <Stopwatch />
     </div>
   );
 }
