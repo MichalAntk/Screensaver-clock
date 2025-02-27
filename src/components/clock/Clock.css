@@ -8,4 +8,13 @@
 .clock {
     font-family: 'ClockFont', sans-serif;
     font-size: 150px;
+    color :#bcbdac;
+    display: flex;
+}
+
+.second {
+    font-size: 70px;
+    color :rgb(153, 147, 147);
+    align-self: flex-end;
+    margin-bottom: 25px;
 }

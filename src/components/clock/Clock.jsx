@@ -1,4 +1,7 @@
 import { useState, useEffect } from "react";
+import Hour from './Hour';
+import Minute from './Minute';
+import Second from './Second';
 import './Clock.css';
 
 const Clock = () => {
@@ -12,9 +15,16 @@ const Clock = () => {
         return () => clearInterval(interval);
     }, []);
 
+    const hours = time.getHours();
+    const minutes = time.getMinutes();
+    const seconds = time.getSeconds();
+
     return (
         <div className = "clock">
-            {time.toLocaleTimeString()}
+            <Hour hour = {hours} />
+            <span>:</span>
+            <Minute minute = {minutes} />
+            <Second second = {seconds} />
         </div>
     );
 };
