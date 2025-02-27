@@ -3,7 +3,7 @@ import Stopwatch from "./Stopwatch";
 
 function App() {
   return (
-    <div style={{ justifyContent: "center", alignItems: "center", height: "100vh" }}>
+    <div>
       <Clock />
       <Stopwatch />
     </div>
