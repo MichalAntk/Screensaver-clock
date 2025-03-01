@@ -1,7 +1,9 @@
 function Day ({ day }) {
     return (
-        <div className = "time-part day">
+        <div className = "date-part day">
             {day}
         </div>
     )
 }
+
+export default Day;
