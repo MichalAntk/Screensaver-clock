@@ -1,6 +1,6 @@
 # Screensaver Clock
 
-Jednoduchý React projekt zobrazujúci hodiny ako screensaver. 🚀
+Jednoduchý React projekt zobrazujúci hodiny ako screensaver.
 
 ## Spustenie projektu
 
