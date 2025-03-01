@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "DateFont";
+    src: url(../../fonts/RobotoMono-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.date-container {
+    font-family: "ClockFont", sans-serif;
+    font-size: 50px;
+    color: #474646;
+    display: flex;
+}
+
+.month {
+    margin-left: 15px;
+}
+
+.year {
+    margin-left: 15px;
+}
