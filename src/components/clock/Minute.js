@@ -1,6 +1,6 @@
 function Minute ({ minute }) {
     return (
-        <div className = "time-part minute">
+        <div className = "minute">
             {minute < 10? `0${minute}` : minute}
         </div>
     );

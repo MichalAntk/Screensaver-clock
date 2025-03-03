@@ -1,6 +1,6 @@
 function Hour ({ hour }) {
     return (
-        <div className = "time-part hour">
+        <div className = "hour">
             {hour < 10 ? `0${hour}` : hour}
         </div>
     );

@@ -24,8 +24,8 @@ const DateDisplay = () => {
 
     return(
         <div className="date-container">
-            <Weekday weekday={weekday} /><span>,</span>
-            <Day day={day} />
+            <Weekday weekday={weekday} /><span>, </span>
+            <Day day={day} /><span>of</span>
             <Month month={month} />
             <Year year={year} />
         </div>

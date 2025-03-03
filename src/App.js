@@ -13,6 +13,9 @@ function App() {
       <div>
         <DateDisplay />
       </div>
+      <div>
+        <Stopwatch />
+      </div>
     </div>
   );
 }
