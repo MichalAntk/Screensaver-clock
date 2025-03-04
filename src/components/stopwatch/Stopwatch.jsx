@@ -35,14 +35,18 @@ const Stopwatch = () => {
     const milliseconds = elapsedTime % 100;
 
     return (
-        <div className="stopwatch">
-            <StopwatchHour hour={hours} />
-            <StopwatchMinute minute={minutes} />
-            <StopwatchSecond second={seconds} />
-            <StopwatchMilisecs milisecond={milliseconds} />
-            <button onClick={start}>Start</button>
-            <button onClick={stop}>Stop</button>
-            <button onClick={reset}>Reset</button>
+        <div className="stopwatch-container">
+            <div className="stopwatch-display">
+                <StopwatchHour hour={hours} />
+                <StopwatchMinute minute={minutes} />
+                <StopwatchSecond second={seconds} />
+                <StopwatchMilisecs milisecond={milliseconds} />
+            </div>
+            <div className="stopwatch-buttons">
+                <button onClick={start}>Start</button>
+                <button onClick={stop}>Stop</button>
+                <button onClick={reset}>Reset</button>
+            </div>
         </div>
     );
 };

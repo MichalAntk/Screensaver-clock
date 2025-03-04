@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "StopwatchFont";
+    src: url(../../fonts/RobotoMono-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.stopwatch-container {
+    display: flex;
+    flex-direction: column;
+    margin-top : 30px;
+    font-family: "StopwatchFont",sans-serif;
+    color: #bcbdac;
+}
+
+.stopwatch-display {
+    display: flex;
+}
+
+.stopwatch-buttons {
+    display: flex;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.stopwatchHour {
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.stopwatchMinute {
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.stopwatchSecond {
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.stopwatchMs {
+    font-size: 20px;
+    color: black;
+    
+}

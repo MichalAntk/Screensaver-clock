@@ -1,6 +1,6 @@
 function StopwatchMilisecs ({ milisecond }) {
     return (
-        <div className = "stopwatch-part ms">
+        <div className = "stopwatchMs">
             {milisecond < 10 ? `0${milisecond}`: milisecond }
         </div>
     )
