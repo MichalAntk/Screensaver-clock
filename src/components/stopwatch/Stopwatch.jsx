@@ -3,6 +3,7 @@ import StopwatchMilisecs from "./StopwatchMilisecs";
 import StopwatchSecond from "./StopwatchSecond";
 import StopwatchMinute from "./StopwatchMinute";
 import StopwatchHour from "./StopwatchHour";
+import CustomButton from "../buttons/CustomButton";
 import "./Stopwatch.css";
 
 const Stopwatch = () => {
@@ -38,14 +39,22 @@ const Stopwatch = () => {
         <div className="stopwatch-container">
             <div className="stopwatch-display">
                 <StopwatchHour hour={hours} />
+                <span>:</span>
                 <StopwatchMinute minute={minutes} />
+                <span>:</span>
                 <StopwatchSecond second={seconds} />
                 <StopwatchMilisecs milisecond={milliseconds} />
             </div>
             <div className="stopwatch-buttons">
-                <button onClick={start}>Start</button>
-                <button onClick={stop}>Stop</button>
-                <button onClick={reset}>Reset</button>
+                <CustomButton onClick={start} variant="primary" size="medium">
+                    Start
+                </CustomButton>
+                <CustomButton onClick={stop} variant="primary" size="medium">
+                    Stop
+                </CustomButton>
+                <CustomButton onClick={reset} variant="primary" size="medium">
+                    Reset
+                </CustomButton>
             </div>
         </div>
     );
