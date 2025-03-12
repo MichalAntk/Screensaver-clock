@@ -14,16 +14,27 @@
     flex-direction: column;
     align-items: left;
     gap: 10px;
+    max-width: 300px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
 }
 
 .note-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border-bottom: 2px solid black;
-    color: #bcbdac;
+    color: #bcbdac;  
 }
 
 .notes-container input {
     background-color : #2d2d2e;
     height: 25px;
+    font-size: 20px;
     border: none;
     border-bottom: 2px solid #bcbdac;
     color: #bcbdac;
