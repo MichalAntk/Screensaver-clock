@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "NoteFont";
+    src: url(../../fonts/RobotoMono-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.notes-container {
+    font-family: "NoteFont", sans-serif;
+}
+
+.notes-list {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+
+.note-item {
+    border-bottom: 2px solid black;
+    color: #bcbdac;
+}
+
+.notes-container input {
+    background-color : #2d2d2e;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid #bcbdac;
+    color: #bcbdac;
+    outline: none;
+}
