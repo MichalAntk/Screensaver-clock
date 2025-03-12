@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 import Clock from "./components/clock/Clock";
 import DateDisplay from "./components/date/DateDisplay";
-import Stopwatch from "./components/stopwatch/Stopwatch";
+import Notes from "./components/notes/Notes";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <DateDisplay />
       </div>
       <div>
-        <Stopwatch />
+        <Notes />
       </div>
     </div>
   );
