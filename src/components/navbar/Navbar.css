@@ -1,6 +1,23 @@
+@font-face {
+    font-family: "NavFont";
+    src: url(../../fonts/RobotoMono-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    font-family: "NavFont", sans-serif;
+}
+
 .navbar ul {
     display: flex;
+    justify-content: center;
     list-style: none;
-    gap: 10px;
+    gap: 40px;
     text-decoration: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #bcbdac;
 }

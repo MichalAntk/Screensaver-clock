@@ -6,7 +6,8 @@ import Home from "./pages/home-page/Home";
 import Clock from "./components/clock/Clock";
 import DateDisplay from "./components/date/DateDisplay";
 import About from "./pages/about-page/About";
-import Stopwatch from "./components/stopwatch/Stopwatch";
+import Stopwatch from "./pages/stopwatch-page/StopwatchPage";
+import NotesPage from "./pages/notes-page/Notes";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element ={<Home />}/>
           <Route path="/about" element ={<About />}/>
           <Route path="/stopwatch" element={<Stopwatch />}/>
+          <Route path="/notes" element ={<NotesPage />}/>
         </Routes>
       </Router>
       <div className="center">
