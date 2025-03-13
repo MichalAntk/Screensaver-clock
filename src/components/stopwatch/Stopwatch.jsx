@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import StopwatchMilisecs from "./StopwatchMilisecs";
-import StopwatchSecond from "./StopWatchSecond";
+import StopwatchSecond from "./StopwatchSecond";
 import StopwatchMinute from "./StopwatchMinute";
 import StopwatchHour from "./StopwatchHour";
 import CustomButton from "../buttons/CustomButton";
